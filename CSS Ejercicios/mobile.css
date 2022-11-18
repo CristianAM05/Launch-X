@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    background-color: aliceblue;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contenedorDiv{
+    background-color: rgb(221, 49, 49);
+    width: 200px;
+    height: 200px;
+}
+
+.parrafo{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media (max-width:800px){
+    .contenedor{
+        background-color: aquamarine;
+    }
+}
