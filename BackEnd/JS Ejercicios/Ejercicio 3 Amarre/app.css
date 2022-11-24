@@ -1,0 +1,26 @@
+button:hover {
+    cursor: pointer;/* Cambia el cursor por la manito */
+} 
+
+h1 {
+    color: slateblue;
+}
+
+.modo_pro  { /* Clases */
+    height: 2000px;
+    position: absolute;
+    display: none;/* Oculta de la pantalla */
+    width: 100%;
+    background-color: red;
+    z-index: 1000;
+}
+
+#opt_si { /* IDs */
+    background-color: gold;
+    border-color: silver;
+    color: white;
+    font-size: xx-large;
+    padding: 38px;
+    text-align: center;
+    border-radius: 3px;
+}
