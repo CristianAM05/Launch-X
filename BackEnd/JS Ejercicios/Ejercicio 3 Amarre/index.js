@@ -11,9 +11,18 @@ let divModoSexo = document.getElementsByClassName("modo_pro")[0];
 optNo.addEventListener('mouseenter', function(e) { moverPosicionRandom(e.target) });//cuando pase algo hace x cosa
 
 optSi.addEventListener('click', function(e) {
-    alert('Sabía que dirías que SÍ.😎 \n Casemonos ya y tengamos hijos.\n ❤️ TE AMO!!!! ❤️');
-
+    alert(' Sabía que dirías que SÍ.😎 \n Casemonos ya y tengamos hijos.\n ❤️ TE AMO!!!! ❤️');
+    
     divModoSexo.style.display = 'block';//Reaparece la pantalla
     const cancion = new Audio('img\\modo_hot.mp3');
     cancion.play();
 });
+
+divModoSexo.addEventListener('click', function(e) {//otra forma de agregar algo cuando se hace click
+    const img = document.createElement("img");//crea un elemento imagen
+    img.src = "https://i.kym-cdn.com/entries/icons/facebook/000/015/771/snuz.jpg";
+    divModoSexo.appendChild(img);
+});
+
+botones = document.getElementsByTagName("button");//busca todos los elementos con esa caracteristica
+console.log(botones);
