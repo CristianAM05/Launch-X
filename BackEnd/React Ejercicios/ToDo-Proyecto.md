@@ -6,7 +6,7 @@ Partí con la base de un proyecto en blanco de React.js, lo modifique y cree alg
 
 Para el App.js solo modifique la funcion principal y agregue un contenedor que almacenara los demas componentes
 
-### App.js
+#### App.js
 ```JavaScript
 import './App.scss';
 import Container from './components/Container';
@@ -27,7 +27,7 @@ export default App;
 
 Cree una carpeta de componentes con los sigientes archivos:
 
-/components/Container.jsx
+#### /components/Container.jsx
 ```JavaScript
 import React from "react";
 import { useState } from "react";
@@ -49,7 +49,7 @@ const Container = () => {
 }
 ```
 
-/components/FormToDo.jsx
+#### /components/FormToDo.jsx
 ```JavaScript
 import React from "react";
 import { useState } from "react";
@@ -93,7 +93,7 @@ const FormToDo = props =>{
 export default FormToDo;
 ```
 
-/components/TaskList.jsx
+#### /components/TaskList.jsx
 ```JavaScript
 import React from "react";
 import CheckBox from './CheckBox';
@@ -134,7 +134,7 @@ const TaskList = props => {
 export default TaskList;
 ```
 
-/components/CheckBox.jsx
+#### /components/CheckBox.jsx
 ```JavaScript
 import React, { Fragment } from "react";
 
@@ -161,7 +161,8 @@ export default CheckBox;
 ```
 
 Cambie el App.css por App.scss con el fin de utilizar las caracteristicas de Sass
-###App.scss
+
+#### App.scss
 ```scss
 html{
   background: whitesmoke;
