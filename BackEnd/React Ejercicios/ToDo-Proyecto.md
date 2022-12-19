@@ -6,7 +6,7 @@ Partí con la base de un proyecto en blanco de React.js, lo modifique y cree alg
 
 Para el App.js solo modifique la funcion principal y agregue un contenedor que almacenara los demas componentes
 
-###App.js
+### App.js
 ```JavaScript
 import './App.scss';
 import Container from './components/Container';
