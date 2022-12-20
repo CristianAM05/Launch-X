@@ -4,7 +4,7 @@
 
 Partí con la base de un proyecto en blanco de React.js, lo modifique y cree algunos componentes:
 
-Para el App.js solo modifique la funcion principal y agregue un contenedor que almacenara los demas componentes
+Para el App.js solo modifique la funcion principal y le importo un contenedor que almacenara los demas componentes.
 
 #### App.js
 ```JavaScript
@@ -159,8 +159,17 @@ const CheckBox = props => {
 
 export default CheckBox;
 ```
+Al Container se importan el FormToDo y el TaskList y se crea la funcion para agregar un item.
 
-Cambie el App.css por App.scss con el fin de utilizar las caracteristicas de Sass
+El FormToDo recibe la informacion digitada y con dicha descripcion se crea la tarea.
+
+El ChackBox recibe la tarea una vez creada y le da el formato de item seleccionable.
+
+El TaskList Recibe todos los items, los almacena en una lista y permite actualizarla segun se vayan agregando o elimiendo tareas 
+
+
+
+Para el estilo de la pagina cambie el App.css por App.scss con el fin de utilizar las caracteristicas de Sass y le di a los componentes un estilo con bordes redondeados jugando un poco con los colores.
 
 #### App.scss
 ```scss
@@ -262,3 +271,9 @@ $colorTextoChecked: #2b9348;
   }
 }
 ```
+
+No incluí mas animaciones porque me parece que asi está completo el proyecto.
+
+#### Resultado obtenido:
+
+[![To-Do-React.png](https://i.postimg.cc/QN4ygYx5/To-Do-React.png)](https://postimg.cc/HjMzd2Ms)
