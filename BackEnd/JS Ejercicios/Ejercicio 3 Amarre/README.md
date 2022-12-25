@@ -4,7 +4,7 @@
 
 Aprendiendo el uso de DOM se realizo esta pagina para realizar propuestas sutiles. 
 
-En esta carpeta se encuentran los archivos necutilizados para este proyecto.
+En esta carpeta se encuentran los archivos utilizados para este proyecto.
 
 ### Programas:
 

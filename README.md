@@ -21,4 +21,3 @@ En este repositorio se encuentran todas las actividades realizadas durante el ap
 - [Aprendiendo React](https://github.com/CristianAM05/Launch-X/tree/main/BackEnd/React%20Ejercicios)
 
 - [Practicas BackEnd](https://github.com/CristianAM05/Launch-X/tree/main/FrontEnd/Practicas%20BackEnd)
-
