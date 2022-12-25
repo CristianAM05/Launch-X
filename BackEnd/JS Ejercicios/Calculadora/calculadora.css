@@ -1,0 +1,85 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1s;
+}
+
+h1:hover {
+    color: gold;
+    transition: 0.9s;
+    
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+    width: 300px;
+    height: 100px;
+    margin: 10px 9px 10px 9px;
+    border: solid 1px #0b090a;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 25px;
+    width: 300px; 
+    margin: 10px;
+}
+
+p {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: #495057; */
+    box-shadow: 1px 2px 3px #495057;
+    color: #ddd;
+}
+
+.especial {
+    background-color: red;
+}
+
+.operador {
+    background-color: red;
+    color: black;
+}
+
+p:hover{
+    opacity: 85%;
+    transition: 250ms;
+    box-shadow: none;
+}
+
+p:active{
+    background-color: #212121;
+}
