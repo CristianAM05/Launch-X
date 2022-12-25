@@ -1,7 +1,9 @@
 # Practicas Etapa BackEnd
 
-La practicas realizadas Realizadas en esta etapa se encuentran a continuacion:
+La practicas realizadas en esta etapa se encuentran a continuacion:
 
-- [Mi App](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/React%20Ejercicios/MiApp.md) 
+- [El Amarre](https://github.com/CristianAM05/Launch-X/tree/main/BackEnd/JS%20Ejercicios/Ejercicio%203%20Amarre)
+
+- [Calculadora](https://github.com/CristianAM05/Launch-X/tree/main/BackEnd/Practicas%20BackEnd/Calculadora)
 
 - [To Do App](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/React%20Ejercicios/ToDo-Proyecto.md)

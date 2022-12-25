@@ -23,11 +23,11 @@ Utilice un HTML para el cuerpo, JavaScript para las funcionalidades y CSS para d
 
 ### Programas:
 
-- [calculadora.html](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/JS%20Ejercicios/Calculadora/calculadora.html) 
+- [calculadora.html](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/Practicas%20BackEnd/Calculadora/calculadora.html) 
 
-- [calculadora.js](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/JS%20Ejercicios/Calculadora/calculadora.js)
+- [calculadora.js](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/Practicas%20BackEnd/Calculadora/calculadora.js)
 
-- [calculadora.css](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/JS%20Ejercicios/Calculadora/calculadora.css)
+- [calculadora.css](https://github.com/CristianAM05/Launch-X/blob/main/BackEnd/Practicas%20BackEnd/Calculadora/calculadora.css)
 
 ### Resultado obtenido:
 
